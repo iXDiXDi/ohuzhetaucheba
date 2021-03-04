@@ -1,0 +1,53 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.sky {
+    height: 100%;
+    background-color: blue;
+}
+.rocket {
+    position: fixed;
+    width: 600px;
+    left: 150px;
+    top: 25%;
+}
+.rocket_body {
+    background-color: grey;
+    height: 120px;
+    width: 300px;
+}
+.wings2 {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 120px solid transparent;
+    border-top: 60px solid #fe0;
+}
+.wings1 {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 60px solid #fe0;
+}
+.rocket_head {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 100px solid #fe0;
+}
+.rocket_fire {
+        width: 0;
+        height: 0;
+        border-top: 40px solid transparent;
+        border-bottom: 40px solid transparent;
+        border-left: 80px solid #f00;
+}
+.telo {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
